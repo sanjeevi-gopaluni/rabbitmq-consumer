@@ -1,5 +1,9 @@
 # RabbitMq Consumer
-
+## Branches Details of this Repo
+* master  (have the basic Direct Exchange related Listener code)
+    *[Producer Repo Link](https://github.com/sanjeevi-gopaluni/rabbitmq-web-producer)
+* topic-exchange  (have the Topic Exchange related Listener code (change application.properties file according to your queues, exchanges))
+    *[Producer Repo Link](https://github.com/sanjeevi-gopaluni/rabbitmq-web-producer/tree/topic-exchange)
 ### Please run the server Before executing this [RabbitMq Producer](https://github.com/sanjeevi-gopaluni/rabbitmq-web-producer)  repo
 ### Prerequests
 * start the rabbitmq server (ex service rabbitmq-server start)
